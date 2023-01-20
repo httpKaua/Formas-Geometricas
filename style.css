@@ -1,0 +1,83 @@
+.block {
+    width: 100vh;
+    height: 40vh;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.block-2 {
+    width: 100vh;
+    height: 47vh;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.block-3 {
+    width: 100vh;
+    height: 60vh;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.block-items {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circle {
+    width: 130px;
+    height: 130px;
+    border-color: lightblue;
+    border-style: solid;
+    border-radius: 50%;
+    background: lightblue;
+}
+
+div.trape:hover {
+    border-bottom: 100px solid rgb(150, 202, 219);
+}
+
+div.circle:hover, div.retan:hover {
+    background: rgb(150, 202, 219);
+    border-color: rgb(150, 202, 219);
+}
+
+.trape {
+    height: 0;
+    width:200px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid lightblue;   
+}
+
+.retan {
+    width: 10rem;
+    height: 5rem;
+    border-color: lightblue;
+    border-style: solid;
+    background: lightblue;
+}
+
+button.btn.btn-primary {
+    margin-top: 5%;
+    background-color: #ffffff;
+    border-color:#252525;
+    color: #252525;
+}
+
+button.btn.btn-primary:enabled {
+    background-color: #ffffff;
+    border-color: #252525;
+    color: #252525;
+}
+
+button.btn.btn-primary:hover {
+    background-color: #ececec;
+}
+
+input.btn.btn-primary {
+    margin-top: 5%;
+}
